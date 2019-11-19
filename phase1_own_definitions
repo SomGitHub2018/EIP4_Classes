@@ -1,9 +1,16 @@
 Write your own definitions for:
-Convolution
-Filters/Kernels
-Epochs
-1x1 Convolution
-3x3 Convolution
-Feature Maps
-Activation Function
-Receptive Field
+Convolution -ConvNet / CNN basically used to categorie images to get them recognized, classified and to assigned importance based on multiple aspects of image and to get them differentiate from others.
+
+Filters/Kernels - Kernel is the mecanishm which extract the area of interest. Kernel is also called as extractor, feature creater and output is feature map , especially trained kernel.
+
+Epochs - is number of parameter which tells that number of times that learning algorithm will be training the provided dataset
+
+1x1 Convolution - are filters used to reduce dimensionality in the filter dimension which in general used to increase or decrease the dimensionality.
+
+3x3 Convolution - 2d Convolutions like 3*3 convolutions on image will have layers of a ConvNet with neurons arranged in 3 dimensions: width, height, depth(mostly have third dimension as depth). 
+
+Feature Maps - Capature the outcomes of the filters/ kernels to an input image which helps in understanding the features which were detects by CNN.
+
+Activation Function - it helps us in getting the output of our learning models with accuracy and efficiency to train a model.
+
+Receptive Field is the area in the input space for which CNN kernel or feature is looking for and described by its location and size
